@@ -10,9 +10,9 @@ spec:
     - name: deployment-name
       value: sample-app
     - name: git-url
-      value: https://github.com/savitaashture/devconf-cz-tekton-samples
+      value: https://github.com/touchashfaque/tekton
     - name: IMAGE
-      value: docker.io/savita3020/devconfcz:latest
+      value: kubernetes.io/ashfaque-tekton/devconfcz:latest
   workspaces:
     - name: shared-workspace
       volumeClaimTemplate:
