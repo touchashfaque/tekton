@@ -12,7 +12,7 @@ spec:
     - name: git-url
       value: https://github.com/touchashfaque/tekton
     - name: IMAGE
-      value: kubernetes.io/ashfaque-tekton/devconfcz:latest
+      value: docker.io/ashfaque/devconfcz:latest
   workspaces:
     - name: shared-workspace
       volumeClaimTemplate:
