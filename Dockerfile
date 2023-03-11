@@ -1,3 +1,2 @@
 FROM alpine:latest
-COPY http://172.17.0.1:5000/alpine
-CMD ["docker-registry"]
+ENTRYPOINT echo hello medium
