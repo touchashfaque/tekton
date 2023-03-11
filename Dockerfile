@@ -1,2 +1,4 @@
-FROM http://172.17.0.1:5000/alpine
+ARG REPO_LOCATION=http://172.17.0.1:5000/
+ARG BASE_VERSION=latest
+FROM ${REPO_LOCATION}alpine/base:${BASE_VERSION}
 ENTRYPOINT echo hello medium
