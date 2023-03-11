@@ -1,3 +1,3 @@
-FROM http://172.17.0.1:5000/v2/_catalog/alpine
+FROM http://172.17.0.1:5000/:alpine
 
 ENTRYPOINT echo hello medium
